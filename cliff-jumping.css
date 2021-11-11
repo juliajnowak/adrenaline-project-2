@@ -79,7 +79,7 @@ nav a{
 	overflow-y:scroll;
 
 }
-@media only screen and (max-device-width: 375px){
+@media screen and (max-device-width: 375px){
 	.content-area p{
 
 	line-height: 30px;
