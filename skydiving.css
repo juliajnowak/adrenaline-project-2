@@ -1,0 +1,117 @@
+body{
+	background-image: url("skydiving.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+
+.wrapper{
+/*	width: 1170px;*/
+	margin: 0 auto;
+}
+header{
+	height: 80px;
+	width: 100%;
+	z-index:40;
+	position: fixed;
+}
+.logo{
+	width: 30%;
+	float: left;
+	line-height: 75px; 
+	margin-left:50px;
+	}
+.logo a{
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color:#262626;
+}
+nav{
+	float: right;
+	line-height:75px; 
+	margin-right:100px;
+}
+nav a{
+	text-decoration: none;
+	letter-spacing: 4px;
+	font-size: 12px; 
+	margin:0 10px; 
+	color: #262626;
+}
+.banner-area{
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+}
+.banner-area h2{
+	padding-top: 1%;
+	padding-left: 5%;
+	text-align:center;
+	font-size: 80px;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	color:ghostwhite;
+	letter-spacing: 4px;
+}
+.content-area{
+	position: absolute;
+	top:250px;
+	text-align:center;
+}
+.content-area p{
+	padding: 1% 0; 
+	line-height: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-size:20px; 
+	color:ghostwhite;
+	text-align:center;
+	width: 50%;
+	height: 650px;
+	padding-left:27%;
+	position: fixed;
+	overflow-y:scroll;
+
+}
+@media only screen and (max-device-width: 375px){
+	.content-area p{
+
+	line-height: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-size:30px; 
+	color:ghostwhite;
+	text-align:center;
+	width: 70%;
+	height: 1550px;
+	padding-left:16%;
+	position: fixed;
+	overflow-y:scroll;
+		top:400;
+
+}
+	.banner-area h{
+	padding-left: 5%;
+	text-align:center;
+	font-size: 80px;
+	font-family: 'Oswald', sans-serif;
+	text-transform:uppercase;
+	color:ghostwhite;
+	letter-spacing: 4px;
+}
+	nav{
+	float: right;
+	line-height:75px; 
+	margin-right:50px;
+}
+	.logo a{
+		margin-left:50px;
+		font-size:30px;
+	}
+	
+}
